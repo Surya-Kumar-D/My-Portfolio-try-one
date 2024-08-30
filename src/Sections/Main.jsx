@@ -3,7 +3,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 function Main() {
   return (
-    <div className="grid h-svh w-full bg-[#61dafb1f] md:grid-cols-[60rem_auto]">
+    <div className="grid h-screen w-full bg-[#61dafb1f] md:grid-cols-[60rem_auto]">
       <div className="order-2 flex items-center justify-center md:order-1">
         <img
           className="block mix-blend-multiply"

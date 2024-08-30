@@ -1,7 +1,13 @@
+import LearnedTechnologies from "./Sections/LearnedTechnologies";
 import Main from "./Sections/Main";
 
 function App() {
-  return <Main />;
+  return (
+    <div>
+      <Main />
+      <LearnedTechnologies />
+    </div>
+  );
 }
 
 export default App;
